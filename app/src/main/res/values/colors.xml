@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c3e50</color>
+    <color name="colorPrimaryDark">#22313f</color>
+    <color name="colorAccent">#32ff2b</color>
+    <color name="snackbarbackground">#ff2f00</color>
+    <color name="tint">#b7d7d7d7</color>
+    <color name="dialogheader">#1ba1e2</color>
+    <color name="green">#79da96</color>
+    <color name="colorButtonCompleteState">#19CC95</color>
+    <color name="colorProgressIndicatorBackground">#BBBBBB</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorStroke">#19CC95</color>
+    <color name="colorRed">#ffcd0a51</color>
+</resources>

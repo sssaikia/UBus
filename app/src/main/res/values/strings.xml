@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">UBus</string>
+    <string-array name="busId">
+        <item>Bus1</item>
+        <item>Bus2</item>
+        <item>Bus3</item>
+        <item>Bus4</item>
+        <item>Bus5</item>
+        <item>Bus6</item>
+        <item>Bus7</item>
+        <item>Bus8</item>
+        <item>Bus9</item>
+        <item>Bus10</item>
+        <item>Bus11</item>
+        <item>Bus12</item>
+        <item>Bus13</item>
+        <item>Bus14</item>
+        <item>Bus15</item>
+    </string-array>
+</resources>

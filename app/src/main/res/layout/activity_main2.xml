@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fnBtn="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context="sstudio.com.ubus.Main2Activity"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/preview"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="fitCenter"/>
+
+        <com.ekalips.fancybuttonproj.FancyButton
+            android:id="@+id/buttonannonymus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fnBtn:btnStyle="stroke_fill"
+            fnBtn:capsText="false"
+            fnBtn:fillColor="@color/green"
+            fnBtn:hideFillAfterCollapse="false"
+            fnBtn:progressColor="@android:color/holo_red_light"
+            fnBtn:strokeWidth="5"
+            fnBtn:text="View Map"
+            fnBtn:textColor="#000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/remembermecheckbox"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember my choice."
+            android:textColor="@color/colorAccent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+
+
+        <com.ekalips.fancybuttonproj.FancyButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonauthorized"
+
+            fnBtn:btnStyle="stroke_fill"
+            fnBtn:hideFillAfterCollapse="false"
+            fnBtn:fillColor="@color/green"
+            fnBtn:progressColor="@android:color/holo_red_light"
+            fnBtn:strokeWidth="5"
+            fnBtn:textColor="#000"
+            fnBtn:capsText="false"
+            fnBtn:text="Login"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sstudio"
+            android:textColor="@color/colorRed"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/onlinemenu"
+        app:actionLayout="@layout/online"
+        android:title=""
+        android:visible="true"
+        app:showAsAction="always" />
+    <item android:id="@+id/onlinebus"
+        android:title=""
+        app:showAsAction="always"
+        app:actionLayout="@layout/onlinebus"/>
+    <item android:title="Style"
+        android:id="@+id/mapstyle"/>
+    <item android:title="About"
+        android:id="@+id/about"/>
+</menu>

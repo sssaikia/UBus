@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading data."
+        android:textSize="20dp"
+        android:layout_marginBottom="2dp"/>
+    <io.github.yuweiguocn.lib.squareloading.SquareLoading
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/squareloading"
+        app:squareColor="#E91E63"
+        app:squareSize="12dp"
+        app:squareCorner="2dp"
+        app:dividerSize="2dp"
+        app:xCount="4"
+        app:yCount="4"/>
+
+</LinearLayout>
